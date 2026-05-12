@@ -542,7 +542,7 @@ int main(int argc, char* argv[])
 		for (int i = 0; i < 10240000; ++i) {
 			std::string x = std::to_string(i);
 			claujson::_Value data;
-			claujson::convert_number(x, data);
+//claujson::convert_number(x, data);
 			sum += data.get_integer();
 			sum2 += i;
 		}
