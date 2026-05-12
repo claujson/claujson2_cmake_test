@@ -706,6 +706,7 @@ int main(int argc, char* argv[])
 
 		std::cout << "counter " << claujson::Arena::counter << "\n";
 		//return 0;
+		if (i < 5) { continue; }
 		//continue;
 		auto b = std::chrono::steady_clock::now();
 		auto dur = std::chrono::duration_cast<std::chrono::milliseconds>(b - a);
