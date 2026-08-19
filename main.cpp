@@ -661,7 +661,7 @@ int main(int argc, char* argv[])
 	claujson::parser p;
 
 	for (int i = 0; i < 6; ++i) {
-		claujson::Arena::counter = 0;
+		//claujson::Arena::counter = 0;
 
 		if (argc < 4) {
 			claujson::log.console();
@@ -704,7 +704,7 @@ int main(int argc, char* argv[])
 			//std::cout << "remove " << b - a << "ms\n";
 		}
 
-		std::cout << "counter " << claujson::Arena::counter << "\n";
+		//std::cout << "counter " << claujson::Arena::counter << "\n";
 		//return 0;
 		if (i < 5) { continue; }
 		//continue;
